@@ -1,0 +1,1254 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1547803175970,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "5da791e5-131d-4dd1-b61d-b32d773dd8d0",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Troubleshooting Datastores on NetApp Storage",
+      "namePath": "Custom Dashboards",
+      "rank": 462,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9bae7229-c204-4154-8ddc-c29035769bc6",
+            "widgetIdReceiver": "5a72f6db-b33d-4a3f-bb59-2961d066f75c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "82698d16-f358-4d73-b48c-95a5b7c85e76",
+            "widgetIdReceiver": "9bae7229-c204-4154-8ddc-c29035769bc6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9bae7229-c204-4154-8ddc-c29035769bc6",
+            "widgetIdReceiver": "7a6417b6-5188-478f-8a38-75d99f448092"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7a6417b6-5188-478f-8a38-75d99f448092",
+            "widgetIdReceiver": "5f12a52b-dbeb-4ae8-b2e6-e3138082ae42"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7a6417b6-5188-478f-8a38-75d99f448092",
+            "widgetIdReceiver": "866d65bb-9aea-42f6-a2f4-ea148d7e0911"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7a6417b6-5188-478f-8a38-75d99f448092",
+            "widgetIdReceiver": "47b0de04-3879-4208-a832-a7837a6999e0"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "47b0de04-3879-4208-a832-a7837a6999e0",
+            "widgetIdReceiver": "0149e642-9856-4e51-b803-02eedbf724a6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "47b0de04-3879-4208-a832-a7837a6999e0",
+            "widgetIdReceiver": "bef8a348-18a5-48ed-b22a-79052c77adb3"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|available_data",
+                        "metricName": "Capacity|Available Data",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|available_data_capacity",
+                        "metricName": "Capacity|Available Data Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|compression_space_savings",
+                        "metricName": "Capacity|Compression Space Savings",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|daily_growth_rate",
+                        "metricName": "Capacity|Daily Growth Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|days_to_full",
+                        "metricName": "Capacity|Days To Full",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-6",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|deduplication_space_savings",
+                        "metricName": "Capacity|Deduplication Space Savings",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-7",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|inode_utilization",
+                        "metricName": "Capacity|Inode Utilization",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-8",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_overflow",
+                        "metricName": "Capacity|Snapshot Overflow",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-9",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_reserve_available",
+                        "metricName": "Capacity|Snapshot Reserve Available",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-10",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_reserve_available_capacity",
+                        "metricName": "Capacity|Snapshot Reserve Available Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-11",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_reserve_total_capacity",
+                        "metricName": "Capacity|Snapshot Reserve Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-12",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_reserve_used",
+                        "metricName": "Capacity|Snapshot Reserve Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-13",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_reserve_used_capacity",
+                        "metricName": "Capacity|Snapshot Reserve Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-14",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_data_capacity",
+                        "metricName": "Capacity|Total Data Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-15",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|used_data",
+                        "metricName": "Capacity|Used Data",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7939-16",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|used_data_capacity",
+                        "metricName": "Capacity|Used Data Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp Volume Capacity (for selected Volume)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 7,
+               "x": 6,
+               "y": 6
+            },
+            "height": 324,
+            "id": "5a72f6db-b33d-4a3f-bb59-2961d066f75c",
+            "title": "NetApp Volume Capacity (for selected Volume)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Auto Grow",
+                     "metricKey": "Details|auto_grow",
+                     "metricName": "Details|Auto Grow",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Compression",
+                     "metricKey": "Details|compression",
+                     "metricName": "Details|Compression",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Dedup",
+                     "metricKey": "Details|deduplication",
+                     "metricName": "Details|Deduplication",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Thin Provisioned",
+                     "metricKey": "Details|thin_provisioned",
+                     "metricName": "Details|Thin Provisioned",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Protection Role",
+                     "metricKey": "Details|protection_role",
+                     "metricName": "Details|Protection Role",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "NetApp Volume (for selected Datastore)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 5,
+               "x": 1,
+               "y": 6
+            },
+            "height": 324,
+            "id": "9bae7229-c204-4154-8ddc-c29035769bc6",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_5da791e5-131d-4dd1-b61d-b32d773dd8d0_9bae7229-c204-4154-8ddc-c29035769bc6",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_5da791e5-131d-4dd1-b61d-b32d773dd8d0_9bae7229-c204-4154-8ddc-c29035769bc6",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A210%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A136%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A141%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A72%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A69%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A111%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A103%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A128%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A139%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A173%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A188%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A131%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A165%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A199%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A174%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "NetApp Volume (for selected Datastore)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6507-1",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|flash_cache_reads",
+                        "metricName": "Performance|Flash Cache Reads",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp OCUM Node",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6507-2",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|iops",
+                        "metricName": "Performance|IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp OCUM Node",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6507-3",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|latency",
+                        "metricName": "Performance|Latency",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp OCUM Node",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6507-4",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|throughput",
+                        "metricName": "Performance|Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp OCUM Node",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6507-6",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|utilization",
+                        "metricName": "Performance|Utilization",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp OCUM Node",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp Node Performance (for selected Node)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 9,
+               "x": 4,
+               "y": 14
+            },
+            "height": 96,
+            "id": "5f12a52b-dbeb-4ae8-b2e6-e3138082ae42",
+            "title": "NetApp Node Performance (for selected Node)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:2_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:2_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Datastores"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 2,
+               "x": 1,
+               "y": 1
+            },
+            "height": 267,
+            "id": "82698d16-f358-4d73-b48c-95a5b7c85e76",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_5da791e5-131d-4dd1-b61d-b32d773dd8d0_82698d16-f358-4d73-b48c-95a5b7c85e76",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_5da791e5-131d-4dd1-b61d-b32d773dd8d0_82698d16-f358-4d73-b48c-95a5b7c85e76",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "Datastores",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_capacity/capacity|usedSpacePct"],
+                     "value": "capacity|usedSpacePct"
+                  },
+                  "resourceKindId": ["resourceKind:id:2_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Datastores by Used Space (%)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 2,
+               "x": 3,
+               "y": 1
+            },
+            "height": 267,
+            "id": "8e5de865-a5e7-429c-9fca-8814dda37f71",
+            "title": "Top 10 Datastores by Used Space (%)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_datastore/datastore|totalReadLatency_average"],
+                     "value": "datastore|totalReadLatency_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:2_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Datastores by Read Latency (ms)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 2,
+               "x": 5,
+               "y": 1
+            },
+            "height": 267,
+            "id": "72125c32-abe0-4f6b-9ff1-eb3badb965ba",
+            "title": "Top 10 Datastores by Read Latency (ms)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_datastore/datastore|numberReadAveraged_average"],
+                     "value": "datastore|numberReadAveraged_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:2_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Datastores by Read IOPS"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 2,
+               "x": 9,
+               "y": 1
+            },
+            "height": 267,
+            "id": "04272a5c-7865-4dee-87b0-7d1b3a4c6819",
+            "title": "Top 10 Datastores by Read IOPS",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": 1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "NetApp Nodes (for selected Volume)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 3,
+               "x": 1,
+               "y": 12
+            },
+            "height": 210,
+            "id": "7a6417b6-5188-478f-8a38-75d99f448092",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_5da791e5-131d-4dd1-b61d-b32d773dd8d0_7a6417b6-5188-478f-8a38-75d99f448092",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_5da791e5-131d-4dd1-b61d-b32d773dd8d0_7a6417b6-5188-478f-8a38-75d99f448092",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A221%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A163%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A145%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A155%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A206%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A127%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A157%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A133%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "NetApp Nodes (for selected Volume)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5996-1",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|available_capacity",
+                        "metricName": "Capacity|Available Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp OCUM Node",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5996-2",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|capacity_utilization",
+                        "metricName": "Capacity|Capacity Utilization",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp OCUM Node",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5996-3",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|total_capacity",
+                        "metricName": "Capacity|Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp OCUM Node",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5996-4",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|used_capacity",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp OCUM Node",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp Node Capacity (for selected Node)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 9,
+               "x": 4,
+               "y": 12
+            },
+            "height": 96,
+            "id": "866d65bb-9aea-42f6-a2f4-ea148d7e0911",
+            "title": "NetApp Node Capacity (for selected Node)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_datastore/datastore|totalWriteLatency_average"],
+                     "value": "datastore|totalWriteLatency_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:2_::_"],
+                  "tagFilter": {
+                     "path": ["/source/kind/kind:resourceKind:id:2_::_"],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": ["resourceKind:id:2_::_"],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Datastores by Write Latency (ms)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 2,
+               "x": 7,
+               "y": 1
+            },
+            "height": 267,
+            "id": "e17c40a5-7258-45c9-8840-090f09cdac2d",
+            "title": "Top 10 Datastores by Write Latency (ms)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_datastore/datastore|numberWriteAveraged_average"],
+                     "value": "datastore|numberWriteAveraged_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:2_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Datatores by Write IOPS"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 2,
+               "x": 11,
+               "y": 1
+            },
+            "height": 267,
+            "id": "5dd9aa73-adfe-4b5b-921c-bf60e347e3d2",
+            "title": "Top 10 Datatores by Write IOPS",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Model",
+                     "metricKey": "Details|model",
+                     "metricName": "Details|Model",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  },
+                  {
+                     "boxLabel": "OS",
+                     "metricKey": "Details|os_version",
+                     "metricName": "Details|OS Version",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  },
+                  {
+                     "boxLabel": "Serial",
+                     "metricKey": "Details|serial",
+                     "metricName": "Details|Serial",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  }
+               ],
+               "mode": 1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:3_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:3_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "NetApp Cluster (for selected Node)"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 5,
+               "x": 1,
+               "y": 16
+            },
+            "height": 495,
+            "id": "47b0de04-3879-4208-a832-a7837a6999e0",
+            "states": [{
+               "key": "permResGrid_widget_5da791e5-131d-4dd1-b61d-b32d773dd8d0_47b0de04-3879-4208-a832-a7837a6999e0",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A148%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ewidth%25253Dn%2525253A162%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A123%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "NetApp Cluster (for selected Node)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8968-1",
+                        "isStringMetric": false,
+                        "metricKey": "performance|iops",
+                        "metricName": "Performance|IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8968-2",
+                        "isStringMetric": false,
+                        "metricKey": "performance|throughput",
+                        "metricName": "Performance|Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp Cluster Performance Scoreboard (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 7,
+               "x": 6,
+               "y": 16
+            },
+            "height": 153,
+            "id": "0149e642-9856-4e51-b803-02eedbf724a6",
+            "title": "NetApp Cluster Performance Scoreboard (for selected Cluster)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|aggregate_total_capacity",
+                        "metricName": "Capacity|Aggregate Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|aggregate_unused_capacity",
+                        "metricName": "Capacity|Aggregate Unused Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|aggregate_used_capacity",
+                        "metricName": "Capacity|Aggregate Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|allocated_lun_capacity",
+                        "metricName": "Capacity|Allocated LUN Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|available_capacity",
+                        "metricName": "Capacity|Available Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-6",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|capacity_utilization",
+                        "metricName": "Capacity|Capacity Utilization",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-7",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|raw_capacity",
+                        "metricName": "Capacity|Raw Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-8",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_capacity",
+                        "metricName": "Capacity|Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-9",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_cluster_storage_grid_capacity_space_used",
+                        "metricName": "Capacity|Total Cluster Storage Grid Capacity Space Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-10",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_external_capacity_tier_licensed_space",
+                        "metricName": "Capacity|Total External Capacity Tier Licensed Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-11",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_external_capacity_tier_licensed_space_used",
+                        "metricName": "Capacity|Total External Capacity Tier Licensed Space Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-12",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|unallocated_lun_capacity",
+                        "metricName": "Capacity|Unallocated LUN Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-13",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|unconfigured_raw_capacity",
+                        "metricName": "Capacity|Unconfigured Raw Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-14",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|used_capacity",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-15",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_protection_capacity",
+                        "metricName": "Capacity|Volume Protection Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-16",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_total_capacity",
+                        "metricName": "Capacity|Volume Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-17",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_unused_capacity",
+                        "metricName": "Capacity|Volume Unused Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10263-18",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_used_capacity",
+                        "metricName": "Capacity|Volume Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp OCUM Cluster",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp Cluster Capacity Scoreboard (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 7,
+               "x": 6,
+               "y": 19
+            },
+            "height": 324,
+            "id": "bef8a348-18a5-48ed-b22a-79052c77adb3",
+            "title": "NetApp Cluster Capacity Scoreboard (for selected Cluster)",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "NETAPPOCUM_ADAPTER",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "netapp_ocum_bm_exuno_netappocum_volume"
+      },
+      {
+         "adapterKindKey": "NETAPPOCUM_ADAPTER",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "netapp_ocum_bm_exuno_netappocum_node"
+      },
+      {
+         "adapterKindKey": "NETAPPOCUM_ADAPTER",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "netapp_ocum_bm_exuno_netappocum_cluster"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "Datastore"
+      }
+   ]},
+   "uuid": "31469e40-934d-4047-92a1-56a8eab69d35"
+}
